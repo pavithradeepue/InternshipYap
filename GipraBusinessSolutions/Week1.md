@@ -11,6 +11,8 @@
 - String to upper and lower case function `strtoupper()` & `strtolower()`
 - The usual if,else,elseif,switch.
 - In loops we have foreach with syntax `foreach ($colors as $x)` along with other loops like for,while,do-while.
+- Functions has both built-in ones and user defined fuctions.
+- To search for text within a string -- `strpos()`
 - 
 
   
