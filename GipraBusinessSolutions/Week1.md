@@ -1,5 +1,4 @@
-#Week_1: June 3 - June 6
-
+# Week_1: June 3 - June 6
 
 ### 📚 What I Learned
 - **Basics of PHP**
