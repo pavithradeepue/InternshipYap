@@ -13,7 +13,24 @@
 - In loops we have foreach with syntax `foreach ($colors as $x)` along with other loops like for,while,do-while.
 - Functions has both built-in ones and user defined fuctions.
 - To search for text within a string -- `strpos()`
-- 
+- `trim()` to remove white spaces from end or beginning.
+- slicing can be done using `substr()`.
+- NaN stands for Not a Number.
+- We can caste any datatype to an object using `object()` statement.
+- There are 9 Magic_constants -- written with underscore at beggining and end (eg:_CLASS_)
+- Arrays and sorting
+  - sort() - asc
+  - rsort() - desc
+  - ksort() - associative arr acc to key
+  - asort() - associative arr acc to value in asc
+- Superglobal variables
+  - `$GLOBALS` - has all Global variables
+  - `$_SERVER` - info about headers,paths and script locations.
+  - `$_REQUEST, $_POST, %_GET`
+- RegEx
+  - `preg_match()` 1 if found and 0 if not
+  - `preg_match_all()` how many matches found in a string
+      
 
   
 #### 🔹 My First Impression
