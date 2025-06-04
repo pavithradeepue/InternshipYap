@@ -1,6 +1,8 @@
 # Week_1: June 3 - June 6
 
 ### 📚 What I Learned
+#### 🔹 My First Impression
+- PHP felt like a blend of **Java** (because of its object-oriented features) and **Shell scripting** (due to its scripting style and syntax).
 
 #### 🔹 Basics of PHP
 - PHP is a powerful tool for building dynamic web pages.
@@ -30,8 +32,8 @@
 - RegEx
   - `preg_match()` 1 if found and 0 if not
   - `preg_match_all()` how many matches found in a string
-      
+  - `preg_replace()` replace matches of string with another string
+- 
 
   
-#### 🔹 My First Impression
-- PHP felt like a blend of **Java** (because of its object-oriented features) and **Shell scripting** (due to its scripting style and syntax).
+
