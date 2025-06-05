@@ -14,6 +14,12 @@
     echo '<p style="text-align: center; font-size: 22px; font_weight: 500; color: #ffffff;">Hello, World!</p>';
     echo '<p style="text-align:center; font-size: 20px; color: #ffebcd;">This is Pavithra here</p>';
   ?>
+  <p style="text-align: center; margin-top: 30px;">
+  <a href="https://github.com/pavithradeepue" target="_blank" style="color: #ffebcc; font-size: 18px; text-decoration: none;">
+    🔗 Visit My GitHub
+  </a>
+</p>
+
 <style>
   body {
     background-color: #9370DB; /* Medium Purple */
