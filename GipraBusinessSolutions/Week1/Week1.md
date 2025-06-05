@@ -3,7 +3,7 @@
 ### 🚀 Tools I Set Up
 - Installed **XAMPP** on my system to create a local PHP development environment.
 - Started the **Apache server** using the XAMPP Control Panel.
-- Accessed `localhost` via browser and successfully ran my first PHP file (`hello.php`) inside the `htdocs` directory.
+- Accessed `localhost` via browser and successfully ran my first PHP file (`hello.php`) inside the `htdocs` directory. (http://localhost/my_php/myfirstwp.php)
 
 ### 📚 What I Learned
 
