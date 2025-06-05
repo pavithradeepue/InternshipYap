@@ -33,7 +33,11 @@
   - `preg_match()` 1 if found and 0 if not
   - `preg_match_all()` how many matches found in a string
   - `preg_replace()` replace matches of string with another string
-- 
 
+#### 🔹 PHP Forms
+- Takes input and sends data to the same page using POST method.
+- `$_GET` - array of variables passed to current script via url parameters
+- `$_POST` - array of variables passed to current script viva HTTP POST method.
+  
   
 
