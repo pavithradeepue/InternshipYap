@@ -7,7 +7,7 @@
 </head>
 <body>
 <p style="text-align: center; font-size: 24px; font-weight: bold; color: #663399;">
-  This is a centered and enlarged text!
+  This is my First PHP Web Page!
 </p>
 
   <?php
