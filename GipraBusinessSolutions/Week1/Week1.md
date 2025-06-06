@@ -49,3 +49,8 @@ PHP felt like a blend of Java (because of its object-oriented features) and Shel
 - Takes input and sends data to the same page using `POST` method.
 - `$_GET` – array of variables passed via URL parameters
 - `$_POST` – array of variables passed via HTTP POST method
+- when form data is submitted it is sent with method="POST".
+      ##### Validation
+- `$_SERVER["PHP_SELF"]` - return currently executing file name
+- `htmlspecialchars()` - spcl chars into html entities
+- 
