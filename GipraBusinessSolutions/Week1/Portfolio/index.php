@@ -43,4 +43,4 @@
 </body>
 </html>
 
-/*http://localhost/my_php/Portfolio/index.php*/
+// http://localhost/my_php/Portfolio/index.php
