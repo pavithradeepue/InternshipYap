@@ -1,4 +1,4 @@
-# Week 2: Small Wins, Big Servers, and CR7 Magic ✨
+# Week 2: Small Wins, Big Servers, and CR7 Magic ✨ 09/06/25
 
 So going to office on a Monday was obviously the *least* thing lazy me could do — but guess what? I did it today.  
 And the cherry on top? I saw **RONALDO lift the UEFA Nations League** at midnight.  
