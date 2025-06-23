@@ -4,7 +4,7 @@ Faced issues starting **MySQL server in XAMPP** due to **port conflicts**.
 
 - ❌ MySQL wouldn’t start; turned out to be a **port clash**.
 - 🔍 Tried multiple fixes and finally resolved it with help from a **colleague** and **Stack Overflow**.
-- 🛠️ Followed proper recovery steps to avoid data loss:
+- 🛠️ Followed proper recovery steps to avoid data loss _(stack overflow)_: 
   1. Renamed `mysql/data` to `mysql/data_old`
   2. Made a copy of `mysql/backup` and renamed it as `mysql/data`
   3. Copied necessary database folders (except `mysql`, `phpmyadmin`, `performance_schema`, and `test`) from `data_old` to `data`
