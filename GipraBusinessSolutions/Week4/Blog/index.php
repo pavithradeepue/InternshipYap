@@ -1,16 +1,42 @@
-<?php include 'db.php'; ?>
-<h1> My Blog </h1>
-<a href="add.php">Add New Post</a>
+<?php
+// Show errors while debugging
+error_reporting(E_ALL);
+ini_set('display_errors', 1);
 
-<?php 
-$result = $conn->query("SELECT * FROM posts ORDER BY created_at DESC");
-while($row = $RESult->fetch_assoc()):
+// Connect to database
+$conn = new mysqli("localhost", "root", "", "blog_db");
+
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+}
+
+// Fetch posts from 'posts' table
+$sql = "SELECT * FROM posts ORDER BY created_at DESC";
+$result = $conn->query($sql);
 ?>
-    <h2>
-        <?= $row['title']; ?>
-    </h2>
-    <p><?= $row['content']; ?></p>
-    <a href="edit.php?id=<? $row['id']; ?>"> Edit</a> |
-    <a href="delete.php?id=<? $row['id']; ?>"> Delete</a>
-<?php endwhile; ?>
-    
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to My Blog</h1>
+
+    <?php if ($result && $result->num_rows > 0): ?>
+        <?php while($row = $result->fetch_assoc()): ?>
+            <div class="post">
+                <h2><?= htmlspecialchars($row['title']) ?></h2>
+                <p><?= nl2br(htmlspecialchars($row['content'])) ?></p>
+                <small>Posted on: <?= $row['created_at'] ?></small>
+                <hr>
+            </div>
+        <?php endwhile; ?>
+    <?php else: ?>
+        <p>No blog posts found.</p>
+    <?php endif; ?>
+
+</body>
+</html>
